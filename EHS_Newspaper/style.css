@@ -1,0 +1,49 @@
+
+.contentDiv{
+    border-radius: 8px;
+    padding: 10px;
+    border: solid;
+}
+
+#home{
+    font-size: 90px;
+    text-align: left;
+    color:white;
+    background-color: rgb(123, 123, 255);
+    width: 100%;
+}
+
+.wrapper {
+    display: flex;
+}
+
+.sidebar {
+    border-radius: 8px;
+    border: 5px solid rgb(41,80,142);
+    width:  85px;
+    background-color: rgb(13,68,15);
+    padding:  20px;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    height:  100%;
+    transition:  0.5s; /* Smooth transition */
+}
+.main-content {
+    margin-left:  150px; /* Same as the width of the sidebar */
+    transition:  0.5s; /* Smooth transition */
+    width: 80%;
+}
+
+
+
+/* Need to fix this  */
+/* @font-face {
+    font-family: "Chomsky";
+    src: url(EHS_Newspaper\Fonts\webfontkit-20240221-003032'.eot'); 
+    src: url('path-to-your-font/YourFontFile.eot?#iefix') format('embedded-opentype'), 
+         url('path-to-your-font/YourFontFile.woff2') format('woff2'), 
+         url('path-to-your-font/YourFontFile.woff') format('woff'), 
+         url('path-to-your-font/YourFontFile.ttf') format('truetype'), 
+         url('path-to-your-font/YourFontFile.svg#svgFontName') format('svg');
+  
+} */
+
