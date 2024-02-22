@@ -1,0 +1,92 @@
+*{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: "Chomsky";
+    src: url('./fonts/chomsky.regular-webfont.woff2') format('woff2'), 
+         url('./fonts/chomsky.regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.content-format {
+    border-radius: 8px;
+    padding: 10px;
+    border: solid;
+}
+
+#home {
+    font-size:  46.5px;
+    text-align: left;
+    vertical-align: top;
+    color:rgb(255,  255,  255);
+    background-image: url('Images/main-bg.jpg');
+    background-size: cover;
+    background-position: center; /* Optional: to center the image */
+    font-family: 'Chomsky';
+    width:  100%; /* Adjust the width as needed */
+    height:  250px; /* Adjust the height as needed */
+    resize: both; /* Allows both horizontal and vertical resizing */
+}
+.wrapper {
+    display: flex;
+}
+
+.sidebar {
+    border-radius: 8px;
+    border: 5px solid rgb(255, 145, 56);
+    width:  85px;
+    background-color: white;
+    padding:  20px;
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    transition:  0.5s; /* Smooth transition */
+    height: 90vh; /* Make navigation fill the entire height of the viewport */
+    overflow-y: auto; /* Enable vertical scrolling within the navigation */
+}
+nav{
+    padding: 0px;
+    display: block;
+    text-align: center;
+    justify-content: center; /* Horizontally center the items */
+}
+
+nav ul {
+    list-style-type: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    text-decoration: none;
+}
+
+nav ul li {
+    padding: 10px; /* Add padding to list items for better spacing */
+    transition: 0.3s;
+}
+
+nav a{
+    font-size: 25px;
+    color: black;
+    transition: 0.3s;
+}
+
+nav a:hover{
+    font-family: 'Chomsky';
+    color: green;
+    font-size: 30px;
+}
+
+nav ul li:hover{
+    border-radius: 8px;
+    border: 2px solid black;
+}
+
+#logo{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+
+.main-content {
+    margin-left:  150px; /* Same as the width of the sidebar */
+    transition:  0.5s; /* Smooth transition */
+    width: 80%;
+}
